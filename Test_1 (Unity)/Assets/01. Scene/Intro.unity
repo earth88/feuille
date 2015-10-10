@@ -1,0 +1,3862 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+SceneSettings:
+  m_ObjectHideFlags: 0
+  m_PVSData: 
+  m_PVSObjectsArray: []
+  m_PVSPortalsArray: []
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: .25
+    backfaceThreshold: 100
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 6
+  m_Fog: 0
+  m_FogColor: {r: .5, g: .5, b: .5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: .00999999978
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: .211999997, g: .226999998, b: .259000003, a: 1}
+  m_AmbientEquatorColor: {r: .114, g: .125, b: .133000001, a: 1}
+  m_AmbientGroundColor: {r: .0469999984, g: .0430000015, b: .0350000001, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: .5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+--- !u!127 &3
+LevelGameManager:
+  m_ObjectHideFlags: 0
+--- !u!157 &4
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_GIWorkflowMode: 0
+  m_LightmapsMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_TemporalCoherenceThreshold: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 1
+  m_LightmapEditorSettings:
+    serializedVersion: 3
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
+    m_AOMaxDistance: 1
+    m_Padding: 2
+    m_CompAOExponent: 0
+    m_LightmapParameters: {fileID: 0}
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherRayCount: 1024
+  m_LightmapSnapshot: {fileID: 0}
+  m_RuntimeCPUUsage: 25
+--- !u!196 &5
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentRadius: .5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: .400000006
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    accuratePlacement: 0
+    minRegionArea: 2
+    cellSize: .166666672
+    manualCellSize: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &1425326
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1425327}
+  - 114: {fileID: 1425328}
+  m_Layer: 0
+  m_Name: Window_CloseButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1425327
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1425326}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1.10000002}
+  m_LocalScale: {x: 0, y: 0, z: 1}
+  m_Children:
+  - {fileID: 533976897}
+  m_Father: {fileID: 134460398}
+  m_RootOrder: 0
+--- !u!114 &1425328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1425326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d83cc1d4a347eff4caa625c56f2e7474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentpos:
+    left: 334
+    right: 855
+    top: 41
+    bottom: 439
+    isStyle: 0
+  relative:
+    left: 100
+    right: 100
+    top: 0
+    bottom: 0
+    isStyle: 0
+  offset:
+    left: -48
+    right: -4
+    top: 0
+    bottom: 20
+    isStyle: 0
+  absolute:
+    left: 807
+    right: 851
+    top: 41
+    bottom: 61
+    isStyle: 0
+  layerOffset: .100000001
+  lockPosition: 0
+  dynamic: 1
+  editable: 1
+  pointed: 0
+  pointedOnBackground: 0
+  pointedTime: 0
+  unpointedTime: 0
+  disabled: 0
+  activated: 0
+  pressed: 0
+  check: 0
+  instant: 1
+  password: 0
+  text: 
+  mainGuiTexture: {fileID: 533976898}
+  blendGuiTexture: {fileID: 0}
+  guiTexts: []
+  textMaterial: {fileID: 0}
+  textEffectMaterial: {fileID: 0}
+  styleSet: {fileID: 11400000, guid: fa3762748a9cff6429fea97cc8bfb1ac, type: 2}
+  customStyle: 0
+  styleName: Window_CloseButton
+  style:
+    name: Window_CloseButton
+    show: 0
+    fixedSize: 0
+    fixedWidth: 1
+    fixedHeight: 1
+    fixedWidthSize: 44
+    fixedHeightSize: 20
+    proportional: 0
+    proportionalAspect: 1
+    main:
+      enabled: 1
+      texture: {fileID: 2800000, guid: c3be6f2438f13b24f9114ad32325833c, type: 3}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: 1, g: 1, b: 1, a: 1}
+      guiBorders: 0
+    pointed:
+      enabled: 1
+      texture: {fileID: 2800000, guid: 7651a419249e17143b74414f21234c73, type: 3}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: 1, g: 1, b: 1, a: 1}
+      guiBorders: 0
+    active:
+      enabled: 1
+      texture: {fileID: 2800000, guid: c9e928d4c6db16849add4b8f9495fb9b, type: 3}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: 1, g: 1, b: 1, a: 1}
+      guiBorders: 0
+    disabled:
+      enabled: 0
+      texture: {fileID: 0}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: 1, g: 1, b: 1, a: 1}
+      guiBorders: 0
+    borders:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    blendSpeed: 2
+    font: {fileID: 0}
+    oldFont: {fileID: 0}
+    fontSize: 0
+    textAligment: 0
+    textOffsetX: 0
+    textOffsetY: 0
+    textEffect: 0
+    textEffectSize: 1
+    textEffectColor: {r: 0, g: 0, b: 0, a: 0}
+    relative:
+      left: 100
+      right: 100
+      top: 0
+      bottom: 0
+      isStyle: 0
+    offset:
+      left: -48
+      right: -4
+      top: 0
+      bottom: 20
+      isStyle: 0
+    layerOffset: .100000001
+    pointOffset:
+      m_Left: 3
+      m_Right: 3
+      m_Top: 0
+      m_Bottom: 5
+  currentFont: {fileID: 0}
+  forceAlign: 0
+  childElements: []
+  childTfms:
+  - {fileID: 533976897}
+  childTfmsActive: 01
+  deleteChildren: 0
+  guiLinkText: 1
+  guiEditor: 0
+  guiStyle: 1
+  guiPosition: 0
+  guiAttributes: 0
+  guiElementProps: 0
+  guiType: 0
+  useStylePlacement: 1
+--- !u!21 &27169623
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Font Material
+  m_Shader: {fileID: 10101, guid: 0000000000000000e000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: debe8a50832fec8408b216ac64b774a7, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats: {}
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .889705896, g: .949797153, b: 1, a: 1}
+--- !u!21 &80587867
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Font Material
+  m_Shader: {fileID: 10101, guid: 0000000000000000e000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: debe8a50832fec8408b216ac64b774a7, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats: {}
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .879271209, g: .951157451, b: 1, a: 1}
+--- !u!1 &121800968
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 121800969}
+  - 114: {fileID: 121800971}
+  - 114: {fileID: 121800970}
+  m_Layer: 0
+  m_Name: InstantGUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &121800969
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 121800968}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 305830501}
+  - {fileID: 134460398}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+--- !u!114 &121800970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 121800968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d83cc1d4a347eff4caa625c56f2e7474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentpos:
+    left: 0
+    right: 913
+    top: 0
+    bottom: 496
+    isStyle: 0
+  relative:
+    left: 0
+    right: 100
+    top: 0
+    bottom: 100
+    isStyle: 0
+  offset:
+    left: -1
+    right: -1
+    top: -1
+    bottom: -1
+    isStyle: 0
+  absolute:
+    left: -1
+    right: 912
+    top: -1
+    bottom: 495
+    isStyle: 0
+  layerOffset: 1
+  lockPosition: 1
+  dynamic: 1
+  editable: 1
+  pointed: 0
+  pointedOnBackground: 0
+  pointedTime: 0
+  unpointedTime: 0
+  disabled: 0
+  activated: 0
+  pressed: 0
+  check: 0
+  instant: 1
+  password: 0
+  text: 
+  mainGuiTexture: {fileID: 0}
+  blendGuiTexture: {fileID: 0}
+  guiTexts: []
+  textMaterial: {fileID: 0}
+  textEffectMaterial: {fileID: 0}
+  styleSet: {fileID: 11400000, guid: fa3762748a9cff6429fea97cc8bfb1ac, type: 2}
+  customStyle: 0
+  styleName: 
+  style:
+    name: 
+    show: 0
+    fixedSize: 0
+    fixedWidth: 0
+    fixedHeight: 0
+    fixedWidthSize: 0
+    fixedHeightSize: 0
+    proportional: 0
+    proportionalAspect: 1
+    main:
+      enabled: 0
+      texture: {fileID: 0}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: 1, g: 1, b: 1, a: 1}
+      guiBorders: 0
+    pointed:
+      enabled: 0
+      texture: {fileID: 0}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: 1, g: 1, b: 1, a: 1}
+      guiBorders: 0
+    active:
+      enabled: 0
+      texture: {fileID: 0}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: 1, g: 1, b: 1, a: 1}
+      guiBorders: 0
+    disabled:
+      enabled: 0
+      texture: {fileID: 0}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: 1, g: 1, b: 1, a: 1}
+      guiBorders: 0
+    borders:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    blendSpeed: 2
+    font: {fileID: 0}
+    oldFont: {fileID: 0}
+    fontSize: 0
+    textAligment: 0
+    textOffsetX: 0
+    textOffsetY: 0
+    textEffect: 0
+    textEffectSize: 1
+    textEffectColor: {r: 0, g: 0, b: 0, a: 0}
+    relative:
+      left: 50
+      right: 50
+      top: 50
+      bottom: 50
+      isStyle: 1
+    offset:
+      left: -20
+      right: 20
+      top: -20
+      bottom: 20
+      isStyle: 1
+    layerOffset: 0
+    pointOffset:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+  currentFont: {fileID: 0}
+  forceAlign: 0
+  childElements: []
+  childTfms:
+  - {fileID: 305830501}
+  - {fileID: 134460398}
+  childTfmsActive: 0000
+  deleteChildren: 0
+  guiLinkText: 1
+  guiEditor: 0
+  guiStyle: 1
+  guiPosition: 0
+  guiAttributes: 0
+  guiElementProps: 0
+  guiType: 0
+  useStylePlacement: 0
+--- !u!114 &121800971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 121800968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ffc154daa3bc464aa3331dfaa8a05eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  element: {fileID: 121800970}
+--- !u!1 &134460397
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 134460398}
+  - 114: {fileID: 134460399}
+  m_Layer: 0
+  m_Name: Background Settings
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &134460398
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 134460397}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalScale: {x: 0, y: 0, z: 1}
+  m_Children:
+  - {fileID: 1425327}
+  - {fileID: 539965741}
+  - {fileID: 812057946}
+  - {fileID: 379325182}
+  m_Father: {fileID: 121800969}
+  m_RootOrder: 1
+--- !u!114 &134460399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 134460397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4549592d8083ed242a276669b455dba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentpos:
+    left: 0
+    right: 885
+    top: 0
+    bottom: 497
+    isStyle: 0
+  relative:
+    left: 50
+    right: 50
+    top: 0
+    bottom: 0
+    isStyle: 0
+  offset:
+    left: -108
+    right: 413
+    top: 41
+    bottom: 439
+    isStyle: 0
+  absolute:
+    left: 334
+    right: 855
+    top: 41
+    bottom: 439
+    isStyle: 0
+  layerOffset: 1
+  lockPosition: 0
+  dynamic: 1
+  editable: 1
+  pointed: 0
+  pointedOnBackground: 0
+  pointedTime: 0
+  unpointedTime: 0
+  disabled: 0
+  activated: 0
+  pressed: 0
+  check: 0
+  instant: 1
+  password: 0
+  text: Background Settings
+  mainGuiTexture: {fileID: 539965742}
+  blendGuiTexture: {fileID: 0}
+  guiTexts:
+  - {fileID: 812057947}
+  textMaterial: {fileID: 2101353166}
+  textEffectMaterial: {fileID: 0}
+  styleSet: {fileID: 11400000, guid: fa3762748a9cff6429fea97cc8bfb1ac, type: 2}
+  customStyle: 0
+  styleName: Window
+  style:
+    name: Window
+    show: 0
+    fixedSize: 0
+    fixedWidth: 0
+    fixedHeight: 0
+    fixedWidthSize: 0
+    fixedHeightSize: 0
+    proportional: 0
+    proportionalAspect: 1
+    main:
+      enabled: 1
+      texture: {fileID: 2800000, guid: c96a737cf8bbd654fbbd8c331a7daf10, type: 3}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: .889705896, g: .949797153, b: 1, a: 1}
+      guiBorders: 0
+    pointed:
+      enabled: 0
+      texture: {fileID: 0}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: 1, g: 1, b: 1, a: 1}
+      guiBorders: 0
+    active:
+      enabled: 0
+      texture: {fileID: 0}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: 1, g: 1, b: 1, a: 1}
+      guiBorders: 0
+    disabled:
+      enabled: 0
+      texture: {fileID: 0}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: 1, g: 1, b: 1, a: 1}
+      guiBorders: 0
+    borders:
+      m_Left: 81
+      m_Right: 105
+      m_Top: 108
+      m_Bottom: 30
+    blendSpeed: 2
+    font: {fileID: 12800000, guid: debe8a50832fec8408b216ac64b774a7, type: 3}
+    oldFont: {fileID: 0}
+    fontSize: 22
+    textAligment: 1
+    textOffsetX: 22
+    textOffsetY: 21
+    textEffect: 0
+    textEffectSize: 1
+    textEffectColor: {r: 0, g: 0, b: 0, a: 0}
+    relative:
+      left: 10
+      right: 90
+      top: 10
+      bottom: 90
+      isStyle: 0
+    offset:
+      left: 10
+      right: -10
+      top: 10
+      bottom: -10
+      isStyle: 0
+    layerOffset: 1
+    pointOffset:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+  currentFont: {fileID: 12800000, guid: debe8a50832fec8408b216ac64b774a7, type: 3}
+  forceAlign: 0
+  childElements:
+  - {fileID: 1425328}
+  - {fileID: 379325183}
+  childTfms:
+  - {fileID: 1425327}
+  - {fileID: 539965741}
+  - {fileID: 812057946}
+  - {fileID: 379325182}
+  childTfmsActive: 01010101
+  deleteChildren: 0
+  guiLinkText: 1
+  guiEditor: 0
+  guiStyle: 1
+  guiPosition: 1
+  guiAttributes: 0
+  guiElementProps: 0
+  guiType: 0
+  useStylePlacement: 0
+  scape: 0
+  movable: 0
+  closeButton: {fileID: 1425328}
+  expandButton: {fileID: 0}
+  minimizeButton: {fileID: 0}
+--- !u!1 &152291999
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 152292000}
+  - 132: {fileID: 152292001}
+  m_Layer: 0
+  m_Name: ._text0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &152292000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 152291999}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 3.00999999}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 517572795}
+  m_RootOrder: 1
+--- !u!132 &152292001
+GUIText:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 152291999}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Text: '...'
+  m_Anchor: 4
+  m_Alignment: 0
+  m_PixelOffset: {x: 610.5, y: 272.5}
+  m_LineSpacing: 1
+  m_TabSize: 4
+  m_Font: {fileID: 12800000, guid: debe8a50832fec8408b216ac64b774a7, type: 3}
+  m_Material: {fileID: 80587867}
+  m_FontSize: 22
+  m_FontStyle: 0
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_PixelCorrect: 1
+  m_RichText: 1
+--- !u!1 &288864530
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 288864531}
+  - 131: {fileID: 288864532}
+  m_Layer: 0
+  m_Name: Button_mainTexture
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &288864531
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 288864530}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 2}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1975837428}
+  m_RootOrder: 0
+--- !u!131 &288864532
+GUITexture:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 288864530}
+  m_Enabled: 1
+  m_Texture: {fileID: 2800000, guid: 4bc7ef8657a574b4f8af79349bc03380, type: 3}
+  m_Color: {r: .5, g: .5, b: .5, a: .5}
+  m_PixelInset:
+    serializedVersion: 2
+    x: 82
+    y: 180
+    width: 199
+    height: 50
+  m_LeftBorder: 10
+  m_RightBorder: 10
+  m_TopBorder: 10
+  m_BottomBorder: 10
+--- !u!1 &291873449
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 291873450}
+  - 131: {fileID: 291873451}
+  m_Layer: 0
+  m_Name: Window_CloseButton_mainTexture
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &291873450
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 291873449}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1.10000002}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 601651869}
+  m_RootOrder: 0
+--- !u!131 &291873451
+GUITexture:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 291873449}
+  m_Enabled: 1
+  m_Texture: {fileID: 2800000, guid: c3be6f2438f13b24f9114ad32325833c, type: 3}
+  m_Color: {r: .5, g: .5, b: .5, a: .5}
+  m_PixelInset:
+    serializedVersion: 2
+    x: 261
+    y: 438
+    width: 44
+    height: 20
+  m_LeftBorder: 0
+  m_RightBorder: 0
+  m_TopBorder: 0
+  m_BottomBorder: 0
+--- !u!1 &305830499
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 305830501}
+  - 114: {fileID: 305830500}
+  m_Layer: 0
+  m_Name: Server
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &305830500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 305830499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4549592d8083ed242a276669b455dba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentpos:
+    left: -1
+    right: 905
+    top: -1
+    bottom: 495
+    isStyle: 0
+  relative:
+    left: 50
+    right: 50
+    top: 0
+    bottom: 100
+    isStyle: 0
+  offset:
+    left: -412
+    right: -143
+    top: 39
+    bottom: -53
+    isStyle: 0
+  absolute:
+    left: 40
+    right: 309
+    top: 38
+    bottom: 442
+    isStyle: 0
+  layerOffset: 1
+  lockPosition: 0
+  dynamic: 1
+  editable: 1
+  pointed: 0
+  pointedOnBackground: 0
+  pointedTime: 0
+  unpointedTime: 0
+  disabled: 0
+  activated: 0
+  pressed: 0
+  check: 0
+  instant: 1
+  password: 0
+  text: Server
+  mainGuiTexture: {fileID: 710238869}
+  blendGuiTexture: {fileID: 0}
+  guiTexts:
+  - {fileID: 1667815684}
+  textMaterial: {fileID: 27169623}
+  textEffectMaterial: {fileID: 0}
+  styleSet: {fileID: 11400000, guid: fa3762748a9cff6429fea97cc8bfb1ac, type: 2}
+  customStyle: 0
+  styleName: Window
+  style:
+    name: Window
+    show: 0
+    fixedSize: 0
+    fixedWidth: 0
+    fixedHeight: 0
+    fixedWidthSize: 0
+    fixedHeightSize: 0
+    proportional: 0
+    proportionalAspect: 1
+    main:
+      enabled: 1
+      texture: {fileID: 2800000, guid: c96a737cf8bbd654fbbd8c331a7daf10, type: 3}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: .889705896, g: .949797153, b: 1, a: 1}
+      guiBorders: 0
+    pointed:
+      enabled: 0
+      texture: {fileID: 0}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: 1, g: 1, b: 1, a: 1}
+      guiBorders: 0
+    active:
+      enabled: 0
+      texture: {fileID: 0}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: 1, g: 1, b: 1, a: 1}
+      guiBorders: 0
+    disabled:
+      enabled: 0
+      texture: {fileID: 0}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: 1, g: 1, b: 1, a: 1}
+      guiBorders: 0
+    borders:
+      m_Left: 81
+      m_Right: 105
+      m_Top: 108
+      m_Bottom: 30
+    blendSpeed: 2
+    font: {fileID: 12800000, guid: debe8a50832fec8408b216ac64b774a7, type: 3}
+    oldFont: {fileID: 0}
+    fontSize: 22
+    textAligment: 1
+    textOffsetX: 22
+    textOffsetY: 21
+    textEffect: 0
+    textEffectSize: 1
+    textEffectColor: {r: 0, g: 0, b: 0, a: 0}
+    relative:
+      left: 10
+      right: 90
+      top: 10
+      bottom: 90
+      isStyle: 0
+    offset:
+      left: 10
+      right: -10
+      top: 10
+      bottom: -10
+      isStyle: 0
+    layerOffset: 1
+    pointOffset:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+  currentFont: {fileID: 12800000, guid: debe8a50832fec8408b216ac64b774a7, type: 3}
+  forceAlign: 0
+  childElements:
+  - {fileID: 601651870}
+  - {fileID: 677822057}
+  - {fileID: 1975837429}
+  childTfms:
+  - {fileID: 601651869}
+  - {fileID: 710238868}
+  - {fileID: 1667815683}
+  - {fileID: 677822056}
+  - {fileID: 1975837428}
+  childTfmsActive: 0101010101
+  deleteChildren: 0
+  guiLinkText: 1
+  guiEditor: 0
+  guiStyle: 1
+  guiPosition: 0
+  guiAttributes: 1
+  guiElementProps: 1
+  guiType: 0
+  useStylePlacement: 0
+  scape: 0
+  movable: 0
+  closeButton: {fileID: 601651870}
+  expandButton: {fileID: 0}
+  minimizeButton: {fileID: 0}
+--- !u!4 &305830501
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 305830499}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalScale: {x: 0, y: 0, z: 1}
+  m_Children:
+  - {fileID: 601651869}
+  - {fileID: 710238868}
+  - {fileID: 1667815683}
+  - {fileID: 677822056}
+  - {fileID: 1975837428}
+  m_Father: {fileID: 121800969}
+  m_RootOrder: 0
+--- !u!1 &307082966
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 307082967}
+  - 132: {fileID: 307082968}
+  m_Layer: 0
+  m_Name: S_text0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &307082967
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 307082966}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 3.00999999}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1515027527}
+  m_RootOrder: 1
+--- !u!132 &307082968
+GUIText:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 307082966}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Text: Space
+  m_Anchor: 4
+  m_Alignment: 0
+  m_PixelOffset: {x: 454, y: 348}
+  m_LineSpacing: 1
+  m_TabSize: 4
+  m_Font: {fileID: 12800000, guid: debe8a50832fec8408b216ac64b774a7, type: 3}
+  m_Material: {fileID: 413985111}
+  m_FontSize: 22
+  m_FontStyle: 0
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_PixelCorrect: 1
+  m_RichText: 1
+--- !u!1 &351556782
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 351556783}
+  - 131: {fileID: 351556784}
+  m_Layer: 0
+  m_Name: Button_mainTexture
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &351556783
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 351556782}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 3}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1856635759}
+  m_RootOrder: 0
+--- !u!131 &351556784
+GUITexture:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 351556782}
+  m_Enabled: 1
+  m_Texture: {fileID: 2800000, guid: e1656f6c7bf34454fb9bedae453da3f2, type: 3}
+  m_Color: {r: .5, g: .5, b: .5, a: .5}
+  m_PixelInset:
+    serializedVersion: 2
+    x: 488
+    y: 242
+    width: 69
+    height: 65
+  m_LeftBorder: 10
+  m_RightBorder: 10
+  m_TopBorder: 10
+  m_BottomBorder: 10
+--- !u!1 &354220186
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 354220187}
+  - 131: {fileID: 354220188}
+  m_Layer: 0
+  m_Name: Button_mainTexture
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &354220187
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 354220186}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 3}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1673432163}
+  m_RootOrder: 0
+--- !u!131 &354220188
+GUITexture:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 354220186}
+  m_Enabled: 1
+  m_Texture: {fileID: 2800000, guid: e1656f6c7bf34454fb9bedae453da3f2, type: 3}
+  m_Color: {r: .5, g: .5, b: .5, a: .5}
+  m_PixelInset:
+    serializedVersion: 2
+    x: 397
+    y: 242
+    width: 69
+    height: 65
+  m_LeftBorder: 10
+  m_RightBorder: 10
+  m_TopBorder: 10
+  m_BottomBorder: 10
+--- !u!1 &354939771
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 354939772}
+  - 132: {fileID: 354939773}
+  m_Layer: 0
+  m_Name: B_text0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &354939772
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 354939771}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 2.00999999}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1975837428}
+  m_RootOrder: 1
+--- !u!132 &354939773
+GUIText:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 354939771}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Text: Background
+  m_Anchor: 4
+  m_Alignment: 0
+  m_PixelOffset: {x: 181.5, y: 203}
+  m_LineSpacing: 1
+  m_TabSize: 4
+  m_Font: {fileID: 12800000, guid: debe8a50832fec8408b216ac64b774a7, type: 3}
+  m_Material: {fileID: 1236623186}
+  m_FontSize: 22
+  m_FontStyle: 0
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_PixelCorrect: 1
+  m_RichText: 1
+--- !u!1 &379325181
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 379325182}
+  - 114: {fileID: 379325183}
+  m_Layer: 0
+  m_Name: GuiElement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &379325182
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 379325181}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 2}
+  m_LocalScale: {x: 0, y: 0, z: 1}
+  m_Children:
+  - {fileID: 1515027527}
+  - {fileID: 2143353688}
+  - {fileID: 1584362792}
+  m_Father: {fileID: 134460398}
+  m_RootOrder: 3
+--- !u!114 &379325183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 379325181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0812a8982a55724d8e9a2fcdf854c87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentpos:
+    left: 334
+    right: 855
+    top: 41
+    bottom: 439
+    isStyle: 0
+  relative:
+    left: 0
+    right: 100
+    top: 0
+    bottom: 100
+    isStyle: 0
+  offset:
+    left: 30
+    right: -30
+    top: 120
+    bottom: -40
+    isStyle: 0
+  absolute:
+    left: 364
+    right: 825
+    top: 161
+    bottom: 399
+    isStyle: 0
+  layerOffset: 1
+  lockPosition: 0
+  dynamic: 1
+  editable: 1
+  pointed: 0
+  pointedOnBackground: 0
+  pointedTime: 0
+  unpointedTime: .000369999907
+  disabled: 0
+  activated: 0
+  pressed: 0
+  check: 0
+  instant: 1
+  password: 0
+  text: 
+  mainGuiTexture: {fileID: 2143353689}
+  blendGuiTexture: {fileID: 0}
+  guiTexts: []
+  textMaterial: {fileID: 1499131457}
+  textEffectMaterial: {fileID: 0}
+  styleSet: {fileID: 11400000, guid: fa3762748a9cff6429fea97cc8bfb1ac, type: 2}
+  customStyle: 0
+  styleName: TabGroup
+  style:
+    name: TabGroup
+    show: 0
+    fixedSize: 0
+    fixedWidth: 0
+    fixedHeight: 0
+    fixedWidthSize: 110
+    fixedHeightSize: 70
+    proportional: 0
+    proportionalAspect: 1
+    main:
+      enabled: 1
+      texture: {fileID: 2800000, guid: b61e9a5d44527e341a56d4721e5e4cca, type: 3}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: 1, g: 1, b: 1, a: 1}
+      guiBorders: 0
+    pointed:
+      enabled: 0
+      texture: {fileID: 0}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: 1, g: 1, b: 1, a: 1}
+      guiBorders: 0
+    active:
+      enabled: 0
+      texture: {fileID: 0}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: 1, g: 1, b: 1, a: 1}
+      guiBorders: 0
+    disabled:
+      enabled: 0
+      texture: {fileID: 0}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: 1, g: 1, b: 1, a: 1}
+      guiBorders: 0
+    borders:
+      m_Left: 15
+      m_Right: 65
+      m_Top: 10
+      m_Bottom: 60
+    blendSpeed: 2
+    font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    oldFont: {fileID: 0}
+    fontSize: 0
+    textAligment: 0
+    textOffsetX: 0
+    textOffsetY: 0
+    textEffect: 0
+    textEffectSize: 1
+    textEffectColor: {r: 0, g: 0, b: 0, a: 0}
+    relative:
+      left: 0
+      right: 100
+      top: 0
+      bottom: 100
+      isStyle: 0
+    offset:
+      left: 30
+      right: -30
+      top: 120
+      bottom: -40
+      isStyle: 0
+    layerOffset: 1
+    pointOffset:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+  currentFont: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  forceAlign: 0
+  childElements:
+  - {fileID: 1515027528}
+  - {fileID: 1584362793}
+  childTfms:
+  - {fileID: 1515027527}
+  - {fileID: 2143353688}
+  - {fileID: 1584362792}
+  childTfmsActive: 010101
+  deleteChildren: 0
+  guiLinkText: 1
+  guiEditor: 0
+  guiStyle: 1
+  guiPosition: 0
+  guiAttributes: 0
+  guiElementProps: 1
+  guiType: 0
+  useStylePlacement: 0
+  couldBeUnchecked: 1
+  tabs:
+  - {fileID: 1515027528}
+  fields:
+  - {fileID: 1584362793}
+  selected: 0
+  onChecked:
+    enableObjects: []
+    disableObjects: []
+    message: 
+    messageRecievers: 2
+    messageGameObject: {fileID: 0}
+    parameter: 
+    messageInEditor: 0
+    guiDraw: 0
+  onUnchecked:
+    enableObjects: []
+    disableObjects: []
+    message: 
+    messageRecievers: 2
+    messageGameObject: {fileID: 0}
+    parameter: 
+    messageInEditor: 0
+    guiDraw: 0
+--- !u!1 &382228643
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 382228644}
+  - 132: {fileID: 382228645}
+  m_Layer: 0
+  m_Name: B_text0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &382228644
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 382228643}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 3.00999999}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1856635759}
+  m_RootOrder: 1
+--- !u!132 &382228645
+GUIText:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 382228643}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Text: Blue
+  m_Anchor: 4
+  m_Alignment: 0
+  m_PixelOffset: {x: 522.5, y: 272.5}
+  m_LineSpacing: 1
+  m_TabSize: 4
+  m_Font: {fileID: 12800000, guid: debe8a50832fec8408b216ac64b774a7, type: 3}
+  m_Material: {fileID: 932264161}
+  m_FontSize: 22
+  m_FontStyle: 0
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_PixelCorrect: 1
+  m_RichText: 1
+--- !u!21 &413985111
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Font Material
+  m_Shader: {fileID: 10101, guid: 0000000000000000e000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: debe8a50832fec8408b216ac64b774a7, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats: {}
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &517572794
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 517572795}
+  - 114: {fileID: 517572796}
+  m_Layer: 0
+  m_Name: '...'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &517572795
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 517572794}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 3}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1384502223}
+  - {fileID: 152292000}
+  m_Father: {fileID: 1584362792}
+  m_RootOrder: 2
+--- !u!114 &517572796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 517572794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dabf9185ff9aee24589c097788781e09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentpos:
+    left: 364
+    right: 825
+    top: 161
+    bottom: 399
+    isStyle: 0
+  relative:
+    left: 0
+    right: 100
+    top: 0
+    bottom: 0
+    isStyle: 0
+  offset:
+    left: 212
+    right: -180
+    top: 29
+    bottom: 94
+    isStyle: 0
+  absolute:
+    left: 576
+    right: 645
+    top: 190
+    bottom: 255
+    isStyle: 0
+  layerOffset: 1
+  lockPosition: 0
+  dynamic: 1
+  editable: 1
+  pointed: 0
+  pointedOnBackground: 0
+  pointedTime: 0
+  unpointedTime: 0
+  disabled: 0
+  activated: 0
+  pressed: 0
+  check: 0
+  instant: 1
+  password: 0
+  text: '...'
+  mainGuiTexture: {fileID: 1384502224}
+  blendGuiTexture: {fileID: 0}
+  guiTexts:
+  - {fileID: 152292001}
+  textMaterial: {fileID: 80587867}
+  textEffectMaterial: {fileID: 0}
+  styleSet: {fileID: 11400000, guid: fa3762748a9cff6429fea97cc8bfb1ac, type: 2}
+  customStyle: 0
+  styleName: Button
+  style:
+    name: Button
+    show: 0
+    fixedSize: 0
+    fixedWidth: 0
+    fixedHeight: 0
+    fixedWidthSize: 140
+    fixedHeightSize: 50
+    proportional: 0
+    proportionalAspect: 1
+    main:
+      enabled: 1
+      texture: {fileID: 2800000, guid: e1656f6c7bf34454fb9bedae453da3f2, type: 3}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: .879271209, g: .951157451, b: 1, a: 1}
+      guiBorders: 0
+    pointed:
+      enabled: 1
+      texture: {fileID: 2800000, guid: 49e2ca0bbc5de3f4e92e4c44efb1a662, type: 3}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: 1, g: 1, b: 1, a: 1}
+      guiBorders: 0
+    active:
+      enabled: 1
+      texture: {fileID: 2800000, guid: 8860ac3c57d08404aa896cae37511b57, type: 3}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: 1, g: 1, b: 1, a: 1}
+      guiBorders: 0
+    disabled:
+      enabled: 1
+      texture: {fileID: 2800000, guid: 4bc7ef8657a574b4f8af79349bc03380, type: 3}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: .625, g: .625, b: .625, a: 1}
+      guiBorders: 0
+    borders:
+      m_Left: 10
+      m_Right: 10
+      m_Top: 10
+      m_Bottom: 10
+    blendSpeed: 2
+    font: {fileID: 12800000, guid: debe8a50832fec8408b216ac64b774a7, type: 3}
+    oldFont: {fileID: 0}
+    fontSize: 22
+    textAligment: 0
+    textOffsetX: 0
+    textOffsetY: 2
+    textEffect: 0
+    textEffectSize: 1
+    textEffectColor: {r: 0, g: 0, b: 0, a: 0}
+    relative:
+      left: 0
+      right: 100
+      top: 0
+      bottom: 0
+      isStyle: 0
+    offset:
+      left: 40
+      right: -30
+      top: 72
+      bottom: 150
+      isStyle: 0
+    layerOffset: 1
+    pointOffset:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+  currentFont: {fileID: 12800000, guid: debe8a50832fec8408b216ac64b774a7, type: 3}
+  forceAlign: 0
+  childElements: []
+  childTfms:
+  - {fileID: 1384502223}
+  - {fileID: 152292000}
+  childTfmsActive: 0101
+  deleteChildren: 0
+  guiLinkText: 1
+  guiEditor: 0
+  guiStyle: 1
+  guiPosition: 0
+  guiAttributes: 0
+  guiElementProps: 0
+  guiType: 0
+  useStylePlacement: 0
+  onPressed:
+    enableObjects: []
+    disableObjects: []
+    message: OnClickDots
+    messageRecievers: 4
+    messageGameObject: {fileID: 1980596791}
+    parameter: setCustomBackground
+    messageInEditor: 0
+    guiDraw: 1
+--- !u!1 &533976896
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 533976897}
+  - 131: {fileID: 533976898}
+  m_Layer: 0
+  m_Name: Window_CloseButton_mainTexture
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &533976897
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 533976896}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1.10000002}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1425327}
+  m_RootOrder: 0
+--- !u!131 &533976898
+GUITexture:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 533976896}
+  m_Enabled: 1
+  m_Texture: {fileID: 2800000, guid: c3be6f2438f13b24f9114ad32325833c, type: 3}
+  m_Color: {r: .5, g: .5, b: .5, a: .5}
+  m_PixelInset:
+    serializedVersion: 2
+    x: 807
+    y: 436
+    width: 44
+    height: 20
+  m_LeftBorder: 0
+  m_RightBorder: 0
+  m_TopBorder: 0
+  m_BottomBorder: 0
+--- !u!1 &539965740
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 539965741}
+  - 131: {fileID: 539965742}
+  m_Layer: 0
+  m_Name: Window_mainTexture
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &539965741
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 539965740}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 134460398}
+  m_RootOrder: 1
+--- !u!131 &539965742
+GUITexture:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 539965740}
+  m_Enabled: 1
+  m_Texture: {fileID: 2800000, guid: c96a737cf8bbd654fbbd8c331a7daf10, type: 3}
+  m_Color: {r: .5, g: .5, b: .5, a: .5}
+  m_PixelInset:
+    serializedVersion: 2
+    x: 334
+    y: 58
+    width: 521
+    height: 398
+  m_LeftBorder: 81
+  m_RightBorder: 105
+  m_TopBorder: 108
+  m_BottomBorder: 30
+--- !u!1 &601651868
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 601651869}
+  - 114: {fileID: 601651870}
+  m_Layer: 0
+  m_Name: Window_CloseButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &601651869
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 601651868}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1.10000002}
+  m_LocalScale: {x: 0, y: 0, z: 1}
+  m_Children:
+  - {fileID: 291873450}
+  m_Father: {fileID: 305830501}
+  m_RootOrder: 0
+--- !u!114 &601651870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 601651868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d83cc1d4a347eff4caa625c56f2e7474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentpos:
+    left: 40
+    right: 309
+    top: 38
+    bottom: 442
+    isStyle: 0
+  relative:
+    left: 100
+    right: 100
+    top: 0
+    bottom: 0
+    isStyle: 0
+  offset:
+    left: -48
+    right: -4
+    top: 0
+    bottom: 20
+    isStyle: 0
+  absolute:
+    left: 261
+    right: 305
+    top: 38
+    bottom: 58
+    isStyle: 0
+  layerOffset: .100000001
+  lockPosition: 0
+  dynamic: 1
+  editable: 1
+  pointed: 0
+  pointedOnBackground: 0
+  pointedTime: 0
+  unpointedTime: 0
+  disabled: 0
+  activated: 0
+  pressed: 0
+  check: 0
+  instant: 1
+  password: 0
+  text: 
+  mainGuiTexture: {fileID: 291873451}
+  blendGuiTexture: {fileID: 0}
+  guiTexts: []
+  textMaterial: {fileID: 0}
+  textEffectMaterial: {fileID: 0}
+  styleSet: {fileID: 11400000, guid: fa3762748a9cff6429fea97cc8bfb1ac, type: 2}
+  customStyle: 0
+  styleName: Window_CloseButton
+  style:
+    name: Window_CloseButton
+    show: 0
+    fixedSize: 0
+    fixedWidth: 1
+    fixedHeight: 1
+    fixedWidthSize: 44
+    fixedHeightSize: 20
+    proportional: 0
+    proportionalAspect: 1
+    main:
+      enabled: 1
+      texture: {fileID: 2800000, guid: c3be6f2438f13b24f9114ad32325833c, type: 3}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: 1, g: 1, b: 1, a: 1}
+      guiBorders: 0
+    pointed:
+      enabled: 1
+      texture: {fileID: 2800000, guid: 7651a419249e17143b74414f21234c73, type: 3}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: 1, g: 1, b: 1, a: 1}
+      guiBorders: 0
+    active:
+      enabled: 1
+      texture: {fileID: 2800000, guid: c9e928d4c6db16849add4b8f9495fb9b, type: 3}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: 1, g: 1, b: 1, a: 1}
+      guiBorders: 0
+    disabled:
+      enabled: 0
+      texture: {fileID: 0}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: 1, g: 1, b: 1, a: 1}
+      guiBorders: 0
+    borders:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    blendSpeed: 2
+    font: {fileID: 0}
+    oldFont: {fileID: 0}
+    fontSize: 0
+    textAligment: 0
+    textOffsetX: 0
+    textOffsetY: 0
+    textEffect: 0
+    textEffectSize: 1
+    textEffectColor: {r: 0, g: 0, b: 0, a: 0}
+    relative:
+      left: 100
+      right: 100
+      top: 0
+      bottom: 0
+      isStyle: 0
+    offset:
+      left: -48
+      right: -4
+      top: 0
+      bottom: 20
+      isStyle: 0
+    layerOffset: .100000001
+    pointOffset:
+      m_Left: 3
+      m_Right: 3
+      m_Top: 0
+      m_Bottom: 5
+  currentFont: {fileID: 0}
+  forceAlign: 0
+  childElements: []
+  childTfms:
+  - {fileID: 291873450}
+  childTfmsActive: 01
+  deleteChildren: 0
+  guiLinkText: 1
+  guiEditor: 0
+  guiStyle: 1
+  guiPosition: 0
+  guiAttributes: 0
+  guiElementProps: 0
+  guiType: 0
+  useStylePlacement: 1
+--- !u!1 &677822055
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 677822056}
+  - 114: {fileID: 677822057}
+  m_Layer: 0
+  m_Name: Login
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &677822056
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 677822055}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 2}
+  m_LocalScale: {x: 0, y: 0, z: 1}
+  m_Children:
+  - {fileID: 1551640025}
+  - {fileID: 1417027553}
+  m_Father: {fileID: 305830501}
+  m_RootOrder: 3
+--- !u!114 &677822057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 677822055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dabf9185ff9aee24589c097788781e09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentpos:
+    left: 40
+    right: 309
+    top: 38
+    bottom: 442
+    isStyle: 0
+  relative:
+    left: 0
+    right: 100
+    top: 0
+    bottom: 0
+    isStyle: 0
+  offset:
+    left: 41
+    right: -34
+    top: 162
+    bottom: 212
+    isStyle: 0
+  absolute:
+    left: 81
+    right: 275
+    top: 200
+    bottom: 250
+    isStyle: 0
+  layerOffset: 1
+  lockPosition: 0
+  dynamic: 1
+  editable: 1
+  pointed: 0
+  pointedOnBackground: 0
+  pointedTime: 0
+  unpointedTime: 0
+  disabled: 0
+  activated: 0
+  pressed: 0
+  check: 0
+  instant: 1
+  password: 0
+  text: Login
+  mainGuiTexture: {fileID: 1551640026}
+  blendGuiTexture: {fileID: 0}
+  guiTexts:
+  - {fileID: 1417027554}
+  textMaterial: {fileID: 1045852622}
+  textEffectMaterial: {fileID: 0}
+  styleSet: {fileID: 11400000, guid: fa3762748a9cff6429fea97cc8bfb1ac, type: 2}
+  customStyle: 0
+  styleName: Button
+  style:
+    name: Button
+    show: 0
+    fixedSize: 0
+    fixedWidth: 0
+    fixedHeight: 0
+    fixedWidthSize: 140
+    fixedHeightSize: 50
+    proportional: 0
+    proportionalAspect: 1
+    main:
+      enabled: 1
+      texture: {fileID: 2800000, guid: e1656f6c7bf34454fb9bedae453da3f2, type: 3}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: .879271209, g: .951157451, b: 1, a: 1}
+      guiBorders: 0
+    pointed:
+      enabled: 1
+      texture: {fileID: 2800000, guid: 49e2ca0bbc5de3f4e92e4c44efb1a662, type: 3}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: 1, g: 1, b: 1, a: 1}
+      guiBorders: 0
+    active:
+      enabled: 1
+      texture: {fileID: 2800000, guid: 8860ac3c57d08404aa896cae37511b57, type: 3}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: 1, g: 1, b: 1, a: 1}
+      guiBorders: 0
+    disabled:
+      enabled: 1
+      texture: {fileID: 2800000, guid: 4bc7ef8657a574b4f8af79349bc03380, type: 3}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: .625, g: .625, b: .625, a: 1}
+      guiBorders: 0
+    borders:
+      m_Left: 10
+      m_Right: 10
+      m_Top: 10
+      m_Bottom: 10
+    blendSpeed: 2
+    font: {fileID: 12800000, guid: debe8a50832fec8408b216ac64b774a7, type: 3}
+    oldFont: {fileID: 0}
+    fontSize: 22
+    textAligment: 0
+    textOffsetX: 0
+    textOffsetY: 2
+    textEffect: 0
+    textEffectSize: 1
+    textEffectColor: {r: 0, g: 0, b: 0, a: 0}
+    relative:
+      left: 0
+      right: 100
+      top: 0
+      bottom: 0
+      isStyle: 0
+    offset:
+      left: 40
+      right: -30
+      top: 72
+      bottom: 150
+      isStyle: 0
+    layerOffset: 1
+    pointOffset:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+  currentFont: {fileID: 12800000, guid: debe8a50832fec8408b216ac64b774a7, type: 3}
+  forceAlign: 0
+  childElements: []
+  childTfms:
+  - {fileID: 1551640025}
+  - {fileID: 1417027553}
+  childTfmsActive: 0101
+  deleteChildren: 0
+  guiLinkText: 1
+  guiEditor: 0
+  guiStyle: 1
+  guiPosition: 1
+  guiAttributes: 1
+  guiElementProps: 0
+  guiType: 0
+  useStylePlacement: 0
+  onPressed:
+    enableObjects: []
+    disableObjects: []
+    message: OnClickJoinRoom
+    messageRecievers: 4
+    messageGameObject: {fileID: 1980596791}
+    parameter: 
+    messageInEditor: 0
+    guiDraw: 1
+--- !u!1 &710238867
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 710238868}
+  - 131: {fileID: 710238869}
+  m_Layer: 0
+  m_Name: Window_mainTexture
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &710238868
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 710238867}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 305830501}
+  m_RootOrder: 1
+--- !u!131 &710238869
+GUITexture:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 710238867}
+  m_Enabled: 1
+  m_Texture: {fileID: 2800000, guid: c96a737cf8bbd654fbbd8c331a7daf10, type: 3}
+  m_Color: {r: .5, g: .5, b: .5, a: .5}
+  m_PixelInset:
+    serializedVersion: 2
+    x: 40
+    y: 54
+    width: 269
+    height: 404
+  m_LeftBorder: 81
+  m_RightBorder: 105
+  m_TopBorder: 108
+  m_BottomBorder: 30
+--- !u!1 &745554135
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 745554136}
+  - 131: {fileID: 745554137}
+  m_Layer: 0
+  m_Name: Tab_mainTexture
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &745554136
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 745554135}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 3}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1515027527}
+  m_RootOrder: 0
+--- !u!131 &745554137
+GUITexture:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 745554135}
+  m_Enabled: 1
+  m_Texture: {fileID: 2800000, guid: f4e3871d89e88324a97b99290405714f, type: 3}
+  m_Color: {r: .5, g: .5, b: .5, a: .5}
+  m_PixelInset:
+    serializedVersion: 2
+    x: 374
+    y: 333
+    width: 130
+    height: 40
+  m_LeftBorder: 55
+  m_RightBorder: 15
+  m_TopBorder: 40
+  m_BottomBorder: 0
+--- !u!1 &812057945
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 812057946}
+  - 132: {fileID: 812057947}
+  m_Layer: 0
+  m_Name: T_text0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &812057946
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 812057945}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1.00999999}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 134460398}
+  m_RootOrder: 2
+--- !u!132 &812057947
+GUIText:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 812057945}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Text: Background Settings
+  m_Anchor: 0
+  m_Alignment: 0
+  m_PixelOffset: {x: 356, y: 435}
+  m_LineSpacing: 1
+  m_TabSize: 4
+  m_Font: {fileID: 12800000, guid: debe8a50832fec8408b216ac64b774a7, type: 3}
+  m_Material: {fileID: 2101353166}
+  m_FontSize: 22
+  m_FontStyle: 0
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_PixelCorrect: 1
+  m_RichText: 1
+--- !u!1 &831216277
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 831216278}
+  - 132: {fileID: 831216279}
+  m_Layer: 0
+  m_Name: P_text0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &831216278
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 831216277}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 3.00999999}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1673432163}
+  m_RootOrder: 1
+--- !u!132 &831216279
+GUIText:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 831216277}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Text: Planet
+  m_Anchor: 4
+  m_Alignment: 0
+  m_PixelOffset: {x: 431.5, y: 272.5}
+  m_LineSpacing: 1
+  m_TabSize: 4
+  m_Font: {fileID: 12800000, guid: debe8a50832fec8408b216ac64b774a7, type: 3}
+  m_Material: {fileID: 1107704804}
+  m_FontSize: 22
+  m_FontStyle: 0
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_PixelCorrect: 1
+  m_RichText: 1
+--- !u!21 &932264161
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Font Material
+  m_Shader: {fileID: 10101, guid: 0000000000000000e000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: debe8a50832fec8408b216ac64b774a7, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats: {}
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .879271209, g: .951157451, b: 1, a: 1}
+--- !u!21 &1045852622
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Font Material
+  m_Shader: {fileID: 10101, guid: 0000000000000000e000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: debe8a50832fec8408b216ac64b774a7, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats: {}
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .879271209, g: .951157451, b: 1, a: 1}
+--- !u!21 &1107704804
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Font Material
+  m_Shader: {fileID: 10101, guid: 0000000000000000e000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: debe8a50832fec8408b216ac64b774a7, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats: {}
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .879271209, g: .951157451, b: 1, a: 1}
+--- !u!21 &1236623186
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Font Material
+  m_Shader: {fileID: 10101, guid: 0000000000000000e000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: debe8a50832fec8408b216ac64b774a7, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats: {}
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .625, g: .625, b: .625, a: 1}
+--- !u!1 &1264345187
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1264345192}
+  - 20: {fileID: 1264345191}
+  - 92: {fileID: 1264345190}
+  - 124: {fileID: 1264345189}
+  - 81: {fileID: 1264345188}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1264345188
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1264345187}
+  m_Enabled: 1
+--- !u!124 &1264345189
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1264345187}
+  m_Enabled: 1
+--- !u!92 &1264345190
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1264345187}
+  m_Enabled: 1
+--- !u!20 &1264345191
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1264345187}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: .192156866, g: .301960796, b: .474509805, a: .0196078438}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: .300000012
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_HDR: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: .0219999999
+  m_StereoMirrorMode: 0
+--- !u!4 &1264345192
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1264345187}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!1 &1384502222
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1384502223}
+  - 131: {fileID: 1384502224}
+  m_Layer: 0
+  m_Name: Button_mainTexture
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1384502223
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1384502222}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 3}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 517572795}
+  m_RootOrder: 0
+--- !u!131 &1384502224
+GUITexture:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1384502222}
+  m_Enabled: 1
+  m_Texture: {fileID: 2800000, guid: e1656f6c7bf34454fb9bedae453da3f2, type: 3}
+  m_Color: {r: .5, g: .5, b: .5, a: .5}
+  m_PixelInset:
+    serializedVersion: 2
+    x: 576
+    y: 242
+    width: 69
+    height: 65
+  m_LeftBorder: 10
+  m_RightBorder: 10
+  m_TopBorder: 10
+  m_BottomBorder: 10
+--- !u!1 &1417027552
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1417027553}
+  - 132: {fileID: 1417027554}
+  m_Layer: 0
+  m_Name: L_text0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1417027553
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1417027552}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 2.00999999}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 677822056}
+  m_RootOrder: 1
+--- !u!132 &1417027554
+GUIText:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1417027552}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Text: Login
+  m_Anchor: 4
+  m_Alignment: 0
+  m_PixelOffset: {x: 178, y: 269}
+  m_LineSpacing: 1
+  m_TabSize: 4
+  m_Font: {fileID: 12800000, guid: debe8a50832fec8408b216ac64b774a7, type: 3}
+  m_Material: {fileID: 1045852622}
+  m_FontSize: 22
+  m_FontStyle: 0
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_PixelCorrect: 1
+  m_RichText: 1
+--- !u!21 &1499131457
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Font Material
+  m_Shader: {fileID: 10101, guid: 0000000000000000e000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 10103, guid: 0000000000000000e000000000000000, type: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats: {}
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &1515027526
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1515027527}
+  - 114: {fileID: 1515027528}
+  m_Layer: 0
+  m_Name: Space
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1515027527
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1515027526}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 3}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 745554136}
+  - {fileID: 307082967}
+  m_Father: {fileID: 379325182}
+  m_RootOrder: 0
+--- !u!114 &1515027528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1515027526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d83cc1d4a347eff4caa625c56f2e7474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentpos:
+    left: 364
+    right: 825
+    top: 161
+    bottom: 399
+    isStyle: 0
+  relative:
+    left: 0
+    right: 0
+    top: 0
+    bottom: 0
+    isStyle: 0
+  offset:
+    left: 10
+    right: 140
+    top: -37
+    bottom: 3
+    isStyle: 0
+  absolute:
+    left: 374
+    right: 504
+    top: 124
+    bottom: 164
+    isStyle: 0
+  layerOffset: 1
+  lockPosition: 0
+  dynamic: 1
+  editable: 1
+  pointed: 0
+  pointedOnBackground: 0
+  pointedTime: 0
+  unpointedTime: .00121999963
+  disabled: 0
+  activated: 0
+  pressed: 0
+  check: 1
+  instant: 1
+  password: 0
+  text: Space
+  mainGuiTexture: {fileID: 745554137}
+  blendGuiTexture: {fileID: 0}
+  guiTexts:
+  - {fileID: 307082968}
+  textMaterial: {fileID: 413985111}
+  textEffectMaterial: {fileID: 0}
+  styleSet: {fileID: 11400000, guid: fa3762748a9cff6429fea97cc8bfb1ac, type: 2}
+  customStyle: 0
+  styleName: Tab
+  style:
+    name: Tab
+    show: 0
+    fixedSize: 0
+    fixedWidth: 0
+    fixedHeight: 0
+    fixedWidthSize: 0
+    fixedHeightSize: 0
+    proportional: 0
+    proportionalAspect: 1
+    main:
+      enabled: 1
+      texture: {fileID: 2800000, guid: 3842014515938c74f9d0cbd8aab985ed, type: 3}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: .867647052, g: .934279919, b: 1, a: 1}
+      guiBorders: 0
+    pointed:
+      enabled: 1
+      texture: {fileID: 2800000, guid: 0e07c36f289809a47856e5dc6cfbf3cf, type: 3}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: 1, g: 1, b: 1, a: 1}
+      guiBorders: 0
+    active:
+      enabled: 1
+      texture: {fileID: 2800000, guid: f4e3871d89e88324a97b99290405714f, type: 3}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: 1, g: 1, b: 1, a: 1}
+      guiBorders: 0
+    disabled:
+      enabled: 1
+      texture: {fileID: 2800000, guid: 75a813ec8016df348977148a2d4de74e, type: 3}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: 1, g: 1, b: 1, a: 1}
+      guiBorders: 0
+    borders:
+      m_Left: 55
+      m_Right: 15
+      m_Top: 40
+      m_Bottom: 0
+    blendSpeed: 2
+    font: {fileID: 12800000, guid: debe8a50832fec8408b216ac64b774a7, type: 3}
+    oldFont: {fileID: 0}
+    fontSize: 22
+    textAligment: 0
+    textOffsetX: 15
+    textOffsetY: 5
+    textEffect: 0
+    textEffectSize: 1
+    textEffectColor: {r: 0, g: 0, b: 0, a: 0}
+    relative:
+      left: 0
+      right: 0
+      top: 0
+      bottom: 0
+      isStyle: 0
+    offset:
+      left: 2
+      right: 132
+      top: -37
+      bottom: 3
+      isStyle: 0
+    layerOffset: 1
+    pointOffset:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+  currentFont: {fileID: 12800000, guid: debe8a50832fec8408b216ac64b774a7, type: 3}
+  forceAlign: 0
+  childElements: []
+  childTfms:
+  - {fileID: 745554136}
+  - {fileID: 307082967}
+  childTfmsActive: 0101
+  deleteChildren: 0
+  guiLinkText: 1
+  guiEditor: 0
+  guiStyle: 1
+  guiPosition: 0
+  guiAttributes: 0
+  guiElementProps: 0
+  guiType: 0
+  useStylePlacement: 0
+--- !u!1 &1535999579
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1535999583}
+  - 114: {fileID: 1535999582}
+  - 114: {fileID: 1535999581}
+  - 114: {fileID: 1535999580}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1535999580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1535999579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1997211142, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AllowActivationOnStandalone: 0
+--- !u!114 &1535999581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1535999579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1077351063, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: .5
+  m_AllowActivationOnMobileDevice: 0
+--- !u!114 &1535999582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1535999579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -619905303, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 5
+--- !u!4 &1535999583
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1535999579}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+--- !u!1 &1551640024
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1551640025}
+  - 131: {fileID: 1551640026}
+  m_Layer: 0
+  m_Name: Button_mainTexture
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1551640025
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1551640024}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 2}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 677822056}
+  m_RootOrder: 0
+--- !u!131 &1551640026
+GUITexture:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1551640024}
+  m_Enabled: 1
+  m_Texture: {fileID: 2800000, guid: e1656f6c7bf34454fb9bedae453da3f2, type: 3}
+  m_Color: {r: .5, g: .5, b: .5, a: .5}
+  m_PixelInset:
+    serializedVersion: 2
+    x: 81
+    y: 246
+    width: 194
+    height: 50
+  m_LeftBorder: 10
+  m_RightBorder: 10
+  m_TopBorder: 10
+  m_BottomBorder: 10
+--- !u!1 &1584362791
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1584362792}
+  - 114: {fileID: 1584362793}
+  m_Layer: 0
+  m_Name: Space_Field
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1584362792
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1584362791}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 2}
+  m_LocalScale: {x: 0, y: 0, z: 1}
+  m_Children:
+  - {fileID: 1673432163}
+  - {fileID: 1856635759}
+  - {fileID: 517572795}
+  m_Father: {fileID: 379325182}
+  m_RootOrder: 2
+--- !u!114 &1584362793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1584362791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d83cc1d4a347eff4caa625c56f2e7474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentpos:
+    left: 364
+    right: 825
+    top: 161
+    bottom: 399
+    isStyle: 0
+  relative:
+    left: 0
+    right: 100
+    top: 0
+    bottom: 100
+    isStyle: 0
+  offset:
+    left: 0
+    right: 0
+    top: 0
+    bottom: 0
+    isStyle: 0
+  absolute:
+    left: 364
+    right: 825
+    top: 161
+    bottom: 399
+    isStyle: 0
+  layerOffset: 0
+  lockPosition: 1
+  dynamic: 0
+  editable: 1
+  pointed: 0
+  pointedOnBackground: 0
+  pointedTime: 0
+  unpointedTime: 0
+  disabled: 0
+  activated: 0
+  pressed: 0
+  check: 0
+  instant: 1
+  password: 0
+  text: 
+  mainGuiTexture: {fileID: 0}
+  blendGuiTexture: {fileID: 0}
+  guiTexts: []
+  textMaterial: {fileID: 0}
+  textEffectMaterial: {fileID: 0}
+  styleSet: {fileID: 11400000, guid: fa3762748a9cff6429fea97cc8bfb1ac, type: 2}
+  customStyle: 0
+  styleName: 
+  style:
+    name: 
+    show: 0
+    fixedSize: 0
+    fixedWidth: 0
+    fixedHeight: 0
+    fixedWidthSize: 0
+    fixedHeightSize: 0
+    proportional: 0
+    proportionalAspect: 1
+    main:
+      enabled: 0
+      texture: {fileID: 0}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: 1, g: 1, b: 1, a: 1}
+      guiBorders: 0
+    pointed:
+      enabled: 0
+      texture: {fileID: 0}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: 1, g: 1, b: 1, a: 1}
+      guiBorders: 0
+    active:
+      enabled: 0
+      texture: {fileID: 0}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: 1, g: 1, b: 1, a: 1}
+      guiBorders: 0
+    disabled:
+      enabled: 0
+      texture: {fileID: 0}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: 1, g: 1, b: 1, a: 1}
+      guiBorders: 0
+    borders:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    blendSpeed: 2
+    font: {fileID: 0}
+    oldFont: {fileID: 0}
+    fontSize: 0
+    textAligment: 0
+    textOffsetX: 0
+    textOffsetY: 0
+    textEffect: 0
+    textEffectSize: 1
+    textEffectColor: {r: 0, g: 0, b: 0, a: 0}
+    relative:
+      left: 50
+      right: 50
+      top: 50
+      bottom: 50
+      isStyle: 1
+    offset:
+      left: -20
+      right: 20
+      top: -20
+      bottom: 20
+      isStyle: 1
+    layerOffset: 0
+    pointOffset:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+  currentFont: {fileID: 0}
+  forceAlign: 0
+  childElements:
+  - {fileID: 1673432164}
+  - {fileID: 1856635760}
+  - {fileID: 517572796}
+  childTfms:
+  - {fileID: 1673432163}
+  - {fileID: 1856635759}
+  - {fileID: 517572795}
+  childTfmsActive: 010101
+  deleteChildren: 0
+  guiLinkText: 1
+  guiEditor: 0
+  guiStyle: 1
+  guiPosition: 1
+  guiAttributes: 1
+  guiElementProps: 0
+  guiType: 0
+  useStylePlacement: 0
+--- !u!1 &1667815682
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1667815683}
+  - 132: {fileID: 1667815684}
+  m_Layer: 0
+  m_Name: L_text0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1667815683
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1667815682}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1.00999999}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 305830501}
+  m_RootOrder: 2
+--- !u!132 &1667815684
+GUIText:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1667815682}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Text: Server
+  m_Anchor: 0
+  m_Alignment: 0
+  m_PixelOffset: {x: 62, y: 437}
+  m_LineSpacing: 1
+  m_TabSize: 4
+  m_Font: {fileID: 12800000, guid: debe8a50832fec8408b216ac64b774a7, type: 3}
+  m_Material: {fileID: 27169623}
+  m_FontSize: 22
+  m_FontStyle: 0
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_PixelCorrect: 1
+  m_RichText: 1
+--- !u!1 &1673432162
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1673432163}
+  - 114: {fileID: 1673432164}
+  m_Layer: 0
+  m_Name: Planet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1673432163
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1673432162}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 3}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 354220187}
+  - {fileID: 831216278}
+  m_Father: {fileID: 1584362792}
+  m_RootOrder: 0
+--- !u!114 &1673432164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1673432162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dabf9185ff9aee24589c097788781e09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentpos:
+    left: 364
+    right: 825
+    top: 161
+    bottom: 399
+    isStyle: 0
+  relative:
+    left: 0
+    right: 100
+    top: 0
+    bottom: 0
+    isStyle: 0
+  offset:
+    left: 33
+    right: -359
+    top: 29
+    bottom: 94
+    isStyle: 0
+  absolute:
+    left: 397
+    right: 466
+    top: 190
+    bottom: 255
+    isStyle: 0
+  layerOffset: 1
+  lockPosition: 0
+  dynamic: 1
+  editable: 1
+  pointed: 0
+  pointedOnBackground: 0
+  pointedTime: 0
+  unpointedTime: 0
+  disabled: 0
+  activated: 0
+  pressed: 0
+  check: 0
+  instant: 1
+  password: 0
+  text: Planet
+  mainGuiTexture: {fileID: 354220188}
+  blendGuiTexture: {fileID: 0}
+  guiTexts:
+  - {fileID: 831216279}
+  textMaterial: {fileID: 1107704804}
+  textEffectMaterial: {fileID: 0}
+  styleSet: {fileID: 11400000, guid: fa3762748a9cff6429fea97cc8bfb1ac, type: 2}
+  customStyle: 0
+  styleName: Button
+  style:
+    name: Button
+    show: 0
+    fixedSize: 0
+    fixedWidth: 0
+    fixedHeight: 0
+    fixedWidthSize: 140
+    fixedHeightSize: 50
+    proportional: 0
+    proportionalAspect: 1
+    main:
+      enabled: 1
+      texture: {fileID: 2800000, guid: e1656f6c7bf34454fb9bedae453da3f2, type: 3}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: .879271209, g: .951157451, b: 1, a: 1}
+      guiBorders: 0
+    pointed:
+      enabled: 1
+      texture: {fileID: 2800000, guid: 49e2ca0bbc5de3f4e92e4c44efb1a662, type: 3}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: 1, g: 1, b: 1, a: 1}
+      guiBorders: 0
+    active:
+      enabled: 1
+      texture: {fileID: 2800000, guid: 8860ac3c57d08404aa896cae37511b57, type: 3}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: 1, g: 1, b: 1, a: 1}
+      guiBorders: 0
+    disabled:
+      enabled: 1
+      texture: {fileID: 2800000, guid: 4bc7ef8657a574b4f8af79349bc03380, type: 3}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: .625, g: .625, b: .625, a: 1}
+      guiBorders: 0
+    borders:
+      m_Left: 10
+      m_Right: 10
+      m_Top: 10
+      m_Bottom: 10
+    blendSpeed: 2
+    font: {fileID: 12800000, guid: debe8a50832fec8408b216ac64b774a7, type: 3}
+    oldFont: {fileID: 0}
+    fontSize: 22
+    textAligment: 0
+    textOffsetX: 0
+    textOffsetY: 2
+    textEffect: 0
+    textEffectSize: 1
+    textEffectColor: {r: 0, g: 0, b: 0, a: 0}
+    relative:
+      left: 0
+      right: 100
+      top: 0
+      bottom: 0
+      isStyle: 0
+    offset:
+      left: 40
+      right: -30
+      top: 72
+      bottom: 150
+      isStyle: 0
+    layerOffset: 1
+    pointOffset:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+  currentFont: {fileID: 12800000, guid: debe8a50832fec8408b216ac64b774a7, type: 3}
+  forceAlign: 0
+  childElements: []
+  childTfms:
+  - {fileID: 354220187}
+  - {fileID: 831216278}
+  childTfmsActive: 0101
+  deleteChildren: 0
+  guiLinkText: 1
+  guiEditor: 0
+  guiStyle: 1
+  guiPosition: 0
+  guiAttributes: 0
+  guiElementProps: 0
+  guiType: 0
+  useStylePlacement: 0
+  onPressed:
+    enableObjects: []
+    disableObjects: []
+    message: OnClickBackground
+    messageRecievers: 4
+    messageGameObject: {fileID: 1980596791}
+    parameter: Backgrounds/sky
+    messageInEditor: 0
+    guiDraw: 1
+--- !u!1 &1856635758
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1856635759}
+  - 114: {fileID: 1856635760}
+  m_Layer: 0
+  m_Name: Blue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1856635759
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1856635758}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 3}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 351556783}
+  - {fileID: 382228644}
+  m_Father: {fileID: 1584362792}
+  m_RootOrder: 1
+--- !u!114 &1856635760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1856635758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dabf9185ff9aee24589c097788781e09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentpos:
+    left: 364
+    right: 825
+    top: 161
+    bottom: 399
+    isStyle: 0
+  relative:
+    left: 0
+    right: 100
+    top: 0
+    bottom: 0
+    isStyle: 0
+  offset:
+    left: 124
+    right: -268
+    top: 29
+    bottom: 94
+    isStyle: 0
+  absolute:
+    left: 488
+    right: 557
+    top: 190
+    bottom: 255
+    isStyle: 0
+  layerOffset: 1
+  lockPosition: 0
+  dynamic: 1
+  editable: 1
+  pointed: 0
+  pointedOnBackground: 0
+  pointedTime: 0
+  unpointedTime: 0
+  disabled: 0
+  activated: 0
+  pressed: 0
+  check: 0
+  instant: 1
+  password: 0
+  text: Blue
+  mainGuiTexture: {fileID: 351556784}
+  blendGuiTexture: {fileID: 0}
+  guiTexts:
+  - {fileID: 382228645}
+  textMaterial: {fileID: 932264161}
+  textEffectMaterial: {fileID: 0}
+  styleSet: {fileID: 11400000, guid: fa3762748a9cff6429fea97cc8bfb1ac, type: 2}
+  customStyle: 0
+  styleName: Button
+  style:
+    name: Button
+    show: 0
+    fixedSize: 0
+    fixedWidth: 0
+    fixedHeight: 0
+    fixedWidthSize: 140
+    fixedHeightSize: 50
+    proportional: 0
+    proportionalAspect: 1
+    main:
+      enabled: 1
+      texture: {fileID: 2800000, guid: e1656f6c7bf34454fb9bedae453da3f2, type: 3}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: .879271209, g: .951157451, b: 1, a: 1}
+      guiBorders: 0
+    pointed:
+      enabled: 1
+      texture: {fileID: 2800000, guid: 49e2ca0bbc5de3f4e92e4c44efb1a662, type: 3}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: 1, g: 1, b: 1, a: 1}
+      guiBorders: 0
+    active:
+      enabled: 1
+      texture: {fileID: 2800000, guid: 8860ac3c57d08404aa896cae37511b57, type: 3}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: 1, g: 1, b: 1, a: 1}
+      guiBorders: 0
+    disabled:
+      enabled: 1
+      texture: {fileID: 2800000, guid: 4bc7ef8657a574b4f8af79349bc03380, type: 3}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: .625, g: .625, b: .625, a: 1}
+      guiBorders: 0
+    borders:
+      m_Left: 10
+      m_Right: 10
+      m_Top: 10
+      m_Bottom: 10
+    blendSpeed: 2
+    font: {fileID: 12800000, guid: debe8a50832fec8408b216ac64b774a7, type: 3}
+    oldFont: {fileID: 0}
+    fontSize: 22
+    textAligment: 0
+    textOffsetX: 0
+    textOffsetY: 2
+    textEffect: 0
+    textEffectSize: 1
+    textEffectColor: {r: 0, g: 0, b: 0, a: 0}
+    relative:
+      left: 0
+      right: 100
+      top: 0
+      bottom: 0
+      isStyle: 0
+    offset:
+      left: 40
+      right: -30
+      top: 72
+      bottom: 150
+      isStyle: 0
+    layerOffset: 1
+    pointOffset:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+  currentFont: {fileID: 12800000, guid: debe8a50832fec8408b216ac64b774a7, type: 3}
+  forceAlign: 0
+  childElements: []
+  childTfms:
+  - {fileID: 351556783}
+  - {fileID: 382228644}
+  childTfmsActive: 0101
+  deleteChildren: 0
+  guiLinkText: 1
+  guiEditor: 0
+  guiStyle: 1
+  guiPosition: 0
+  guiAttributes: 0
+  guiElementProps: 0
+  guiType: 0
+  useStylePlacement: 0
+  onPressed:
+    enableObjects: []
+    disableObjects: []
+    message: OnClickBackground
+    messageRecievers: 4
+    messageGameObject: {fileID: 1980596791}
+    parameter: Backgrounds/blue
+    messageInEditor: 0
+    guiDraw: 1
+--- !u!1 &1975837427
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1975837428}
+  - 114: {fileID: 1975837429}
+  m_Layer: 0
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1975837428
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1975837427}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 2}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 288864531}
+  - {fileID: 354939772}
+  m_Father: {fileID: 305830501}
+  m_RootOrder: 4
+--- !u!114 &1975837429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1975837427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dabf9185ff9aee24589c097788781e09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentpos:
+    left: 40
+    right: 309
+    top: 38
+    bottom: 442
+    isStyle: 0
+  relative:
+    left: 0
+    right: 100
+    top: 100
+    bottom: 100
+    isStyle: 0
+  offset:
+    left: 42
+    right: -28
+    top: -176
+    bottom: -126
+    isStyle: 0
+  absolute:
+    left: 82
+    right: 281
+    top: 266
+    bottom: 316
+    isStyle: 0
+  layerOffset: 1
+  lockPosition: 0
+  dynamic: 1
+  editable: 1
+  pointed: 0
+  pointedOnBackground: 0
+  pointedTime: 0
+  unpointedTime: 0
+  disabled: 1
+  activated: 0
+  pressed: 0
+  check: 0
+  instant: 1
+  password: 0
+  text: Background
+  mainGuiTexture: {fileID: 288864532}
+  blendGuiTexture: {fileID: 0}
+  guiTexts:
+  - {fileID: 354939773}
+  textMaterial: {fileID: 1236623186}
+  textEffectMaterial: {fileID: 0}
+  styleSet: {fileID: 11400000, guid: fa3762748a9cff6429fea97cc8bfb1ac, type: 2}
+  customStyle: 0
+  styleName: Button
+  style:
+    name: Button
+    show: 0
+    fixedSize: 0
+    fixedWidth: 0
+    fixedHeight: 0
+    fixedWidthSize: 140
+    fixedHeightSize: 50
+    proportional: 0
+    proportionalAspect: 1
+    main:
+      enabled: 1
+      texture: {fileID: 2800000, guid: e1656f6c7bf34454fb9bedae453da3f2, type: 3}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: .879271209, g: .951157451, b: 1, a: 1}
+      guiBorders: 0
+    pointed:
+      enabled: 1
+      texture: {fileID: 2800000, guid: 49e2ca0bbc5de3f4e92e4c44efb1a662, type: 3}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: 1, g: 1, b: 1, a: 1}
+      guiBorders: 0
+    active:
+      enabled: 1
+      texture: {fileID: 2800000, guid: 8860ac3c57d08404aa896cae37511b57, type: 3}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: 1, g: 1, b: 1, a: 1}
+      guiBorders: 0
+    disabled:
+      enabled: 1
+      texture: {fileID: 2800000, guid: 4bc7ef8657a574b4f8af79349bc03380, type: 3}
+      textOffsetX: 0
+      textOffsetY: 0
+      textColor: {r: .625, g: .625, b: .625, a: 1}
+      guiBorders: 0
+    borders:
+      m_Left: 10
+      m_Right: 10
+      m_Top: 10
+      m_Bottom: 10
+    blendSpeed: 2
+    font: {fileID: 12800000, guid: debe8a50832fec8408b216ac64b774a7, type: 3}
+    oldFont: {fileID: 0}
+    fontSize: 22
+    textAligment: 0
+    textOffsetX: 0
+    textOffsetY: 2
+    textEffect: 0
+    textEffectSize: 1
+    textEffectColor: {r: 0, g: 0, b: 0, a: 0}
+    relative:
+      left: 0
+      right: 100
+      top: 0
+      bottom: 0
+      isStyle: 0
+    offset:
+      left: 40
+      right: -30
+      top: 72
+      bottom: 150
+      isStyle: 0
+    layerOffset: 1
+    pointOffset:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+  currentFont: {fileID: 12800000, guid: debe8a50832fec8408b216ac64b774a7, type: 3}
+  forceAlign: 0
+  childElements: []
+  childTfms:
+  - {fileID: 288864531}
+  - {fileID: 354939772}
+  childTfmsActive: 0101
+  deleteChildren: 0
+  guiLinkText: 1
+  guiEditor: 0
+  guiStyle: 1
+  guiPosition: 1
+  guiAttributes: 1
+  guiElementProps: 0
+  guiType: 0
+  useStylePlacement: 0
+  onPressed:
+    enableObjects:
+    - {fileID: 134460397}
+    disableObjects:
+    - {fileID: 0}
+    - {fileID: 0}
+    message: 
+    messageRecievers: 2
+    messageGameObject: {fileID: 0}
+    parameter: 
+    messageInEditor: 0
+    guiDraw: 1
+--- !u!1 &1980596791
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1980596793}
+  - 114: {fileID: 1980596792}
+  m_Layer: 0
+  m_Name: Selector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1980596792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1980596791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dfc0bd6166c44f2c88a6bef8aafce45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1980596793
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1980596791}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10, y: 10, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+--- !u!21 &2101353166
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Font Material
+  m_Shader: {fileID: 10101, guid: 0000000000000000e000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: debe8a50832fec8408b216ac64b774a7, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats: {}
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .889705896, g: .949797153, b: 1, a: 1}
+--- !u!1 &2143353687
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2143353688}
+  - 131: {fileID: 2143353689}
+  m_Layer: 0
+  m_Name: TabGroup_mainTexture
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2143353688
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2143353687}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 2}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 379325182}
+  m_RootOrder: 1
+--- !u!131 &2143353689
+GUITexture:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2143353687}
+  m_Enabled: 1
+  m_Texture: {fileID: 2800000, guid: b61e9a5d44527e341a56d4721e5e4cca, type: 3}
+  m_Color: {r: .5, g: .5, b: .5, a: .5}
+  m_PixelInset:
+    serializedVersion: 2
+    x: 364
+    y: 98
+    width: 461
+    height: 238
+  m_LeftBorder: 15
+  m_RightBorder: 65
+  m_TopBorder: 10
+  m_BottomBorder: 60
