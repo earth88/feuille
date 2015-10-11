@@ -18,6 +18,11 @@ pdf 파일은 관련 문서임.
 
 Use-case movie : https://dl.dropboxusercontent.com/u/91400762/feuille_movie.mp4
 
+4.
+
+서버 바이너리 : https://www.dropbox.com/sh/s9k9aialgan6vcd/AACzhEvEXj6a1RyNcxEHV_Qha?dl=0
+클라이언트 바이너리 : https://www.dropbox.com/s/vne22c8e6gw6lwt/feuille.apk?dl=0
+
 ----
 
 [English]
@@ -37,3 +42,8 @@ Please download both of them.
 3.
 
 Use-case movie : https://dl.dropboxusercontent.com/u/91400762/feuille_movie.mp4
+
+4.
+
+Server binary : https://www.dropbox.com/sh/s9k9aialgan6vcd/AACzhEvEXj6a1RyNcxEHV_Qha?dl=0
+Client binary : https://www.dropbox.com/s/vne22c8e6gw6lwt/feuille.apk?dl=0
